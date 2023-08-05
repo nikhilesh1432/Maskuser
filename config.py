@@ -12,11 +12,11 @@ API_HASH = getenv("API_HASH", "55a61ddfeb88e75e95de3005598cfa9c") #optional
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "").split()))
 OWNER_ID = int(getenv("OWNER_ID", "1428445604"))
 MONGO_URL = getenv("MONGO_URL" ,"mongodb+srv://jepof32886:J3EoSIoVg5lDfdsy@cluster0.u5tize5.mongodb.net/?retryWrites=true&w=majority")
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+BOT_TOKEN = getenv("BOT_TOKEN", "6217733896:AAEtaF6mkAOEO6UEn8WUkhYu987pim_Tp0U")
 ALIVE_PIC = getenv("ALIVE_PIC", 'https://telegra.ph/file/3c52a01057865f7511168.jpg')
 ALIVE_TEXT = getenv("ALIVE_TEXT")
 PM_LOGGER = getenv("PM_LOGGER")
-LOG_GROUP = getenv("LOG_GROUP")
+LOG_GROUP = getenv("LOG_GROUP", "-1001828684256")
 GIT_TOKEN = getenv("GIT_TOKEN") #personal access token
 REPO_URL = getenv("REPO_URL", "https://github.com/ITZ-ZAID/ZAID-USERBOT")
 BRANCH = getenv("BRANCH", "master") #don't change
